@@ -72,7 +72,7 @@ def send_message(chat_id, text):
 
 if __name__ == "__main__":
     # Get the port from the environment variable (default to 8000)
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 5000))
     print(f"Running on port: {port}")
 
     # Run Flask in a separate thread
